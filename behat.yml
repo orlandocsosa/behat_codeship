@@ -6,3 +6,12 @@ default:
     Behat\MinkExtension\Extension:
       goutte: ~
       selenium2: ~
+
+codeship:
+  paths:
+    features: features
+    bootstrap: %behat.paths.features%/bootstrap
+  extensions:
+    Behat\MinkExtension\Extension:
+      goutte: ~
+      selenium2: ~
